@@ -1,0 +1,145 @@
+h1{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+h2{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+h3{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+h4{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+h5{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+h6{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+        
+    }
+    @include breakpoint(large){
+        
+    }
+}
+
+a{
+    
+}
+p, ul, li, p a, input, ol {
+    
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+        
+    }
+}
+p a, li a{
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+        
+    }
+    &:hover{
+        
+    }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+        
+    }
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+   
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+        
+    }
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+   
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+        
+    }
+  }
+  :-moz-placeholder { /* Firefox 18- */
+
+    @include breakpoint(small){
+        
+    }
+    @include breakpoint(medium){
+   
+    }
+    @include breakpoint(large){
+       
+    }
+  }

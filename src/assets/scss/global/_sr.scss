@@ -1,0 +1,31 @@
+html{
+	scrollbar-width: none !important;
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  &.nav-open{
+	overflow: hidden;
+	height: 100%;
+	min-height: -webkit-fill-available;
+  }
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+/* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+	  display: none;
+  }
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+section{
+    position:relative;
+    overflow: hidden;
+}
+
+#fade-wrap{
+  visibility: hidden;
+}

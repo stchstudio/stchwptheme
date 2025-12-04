@@ -1,0 +1,22 @@
+.button{
+  background: blue;
+  border: solid 2px blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-decoration: none !important;
+  &:hover, &:focus{
+    background: white;
+    color: blue;
+  }
+  &.gray{
+    background: gray;
+    border: solid 2px gray;
+    &:hover, &:focus{
+      background: white;
+      color: gray;
+    }
+  }
+}

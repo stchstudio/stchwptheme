@@ -1,0 +1,34 @@
+.transition {
+	position: fixed;
+	z-index: 10000;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	pointer-events: none;
+  	list-style: none;
+	li {
+		width: 100%;
+		transform: scaleX(0);
+		background: #A2A2A2;
+		#transitionAnimation{
+			position: fixed;
+			display: block;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: 125px !important;
+		}
+	}
+}
+
+.is-transitioning {
+    pointer-events: none;
+}
+
+#fade-wrap{
+    width: 100vw;
+}

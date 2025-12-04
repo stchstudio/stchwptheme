@@ -1,0 +1,60 @@
+.site-header{
+  position:absolute;
+  height: 0px;
+  width: 100%;
+  z-index: 3;
+  transition: all .5s ease-in-out;
+  .logo{
+    position: absolute;
+    z-index: 3;
+    @include breakpoint(small){
+      top: 25px;
+      left: 0px;
+      width: 200px;
+    }
+    @include breakpoint(medium){
+      
+    }
+    @include breakpoint(large){
+      top: 25px;
+      left: 25px;
+    }
+  }
+  nav.top-bar-right{
+    @include breakpoint(small){
+      padding: 50px 0;
+    }
+    @include breakpoint(medium){
+      
+    }
+    @include breakpoint(large){
+  
+    }
+    ul{
+      position: absolute;
+      right: 0;
+      li{
+        a{
+          position: relative;
+          overflow: hidden;
+          color: white;
+          transition: all .3s ease-in-out;
+          font-size: 22px;
+          padding:0 15px;;
+          display: block;
+          font-family: 'Founders Grotesk';
+          font-weight: 600;
+          &:hover {
+            color: black;
+          }
+        }
+        &.is-active{
+          a{
+            color: black;
+          } 
+        }
+      }
+    }
+  }
+}
+
